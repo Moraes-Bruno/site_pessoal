@@ -1,0 +1,39 @@
+body{
+    background-color: #f3f3f3;
+}
+.foto_perfil{
+    width: 296px;
+    height: 296;
+    border-radius: 50%;
+}
+.curriculo{
+    border: 1px solid black;
+}
+
+.icons{
+    height: 40px;
+}
+
+.titles{
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 1030px){
+    .curriculo{
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .curriculo{
+        margin: 10px;
+        margin: auto;
+        width: 350px;
+    }
+
+    .icons{
+        margin: 5px 0px;
+    }
+}
+
