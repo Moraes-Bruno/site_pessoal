@@ -8,12 +8,13 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/global.css">
     <title>Perfil</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
-    <header class="navbar navbar-expand-lg navbar-light bg-dark p-2">
+    <header class="navbar navbar-expand-lg navbar-light  p-2">
         <a class="navbar-brand text-light ms-2 " href="../pages/index.html">Bruno Silva</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,22 +23,30 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav me-2">
                 <a class="nav-item nav-link active text-light" href="perfil.html">Perfil</a>
-                <a class="nav-item nav-link text-light" href="#">Projetos</a>
+                <a class="nav-item nav-link text-light" href="projetos.html">Projetos</a>
             </div>
         </div>
     </header>
 
     <div class="container-fluid p-5 conteudo">
         <div class="row">
-            <div class="col d-flex flex-column justify-content-center align-items-center">
+            <div class="col d-flex flex-column justify-content-start align-items-center">
                 <img src="../img/profile.png" alt="imagem de perfil" class="foto_perfil">
                 <h1 class="mt-2 h2">Bruno Silva</h1>
                 <a href="https://www.linkedin.com/in/bruno-moraes-9b2383231" target="_blank"
-                    class="text-decoration-none mb-4"><i class="bi bi-linkedin text-dark h4">Linkedin</a></i>
+                    class="text-decoration-none mb-4 text"><i class="bi bi-linkedin text-light h4 text-light"> Linkedin</a></i>
             </div>
             <div class="col-8 curriculo rounded-4">
-                <div class= "p-5 ">
+                <div class="p-5 ">
+                    <h2 class="mb-3">Educação</h2>
+                    <hr>
+                    <p class="fw-medium">3° Ano | Completo | Caetano Munhoz</p>
+
+                    <p class="fw-medium"> Cursando 4° Semestre Desenvolvimento de software multiplataforma | Fatec Itapira - "DR. Ogari de Castro Pacheco"
+                    </p>
+
                     <h2 class="mb-4">Linguagens</h2>
+                    <hr>
 
                     <h3 class="titles">Front-End</h3>
                     <div>
@@ -61,6 +70,7 @@
                             src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
                     </div>
                     <h3 class="titles">Framework(S)</h3>
+                    <hr>
                     <div>
                         <img class="icons"
                             src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
@@ -71,7 +81,7 @@
     </div>
 
     <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 bg-dark border-top container-fluid mt-auto">
+        class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top container-fluid mt-auto">
         <div class="col-md-4 d-flex align-items-center">
             <span class=" ms-4 mb-3 mb-md-0 text-light">@Bruno Silva</span>
         </div>

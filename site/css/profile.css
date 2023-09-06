@@ -1,13 +1,10 @@
-body{
-    background-color: #f3f3f3;
-}
 .foto_perfil{
     width: 296px;
     height: 296;
     border-radius: 50%;
 }
 .curriculo{
-    border: 1px solid black;
+    border: 1px solid #30363D;
 }
 
 .icons{
