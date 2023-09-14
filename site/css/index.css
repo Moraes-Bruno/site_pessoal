@@ -1,0 +1,56 @@
+.paralax {
+    /* The image used */
+    background-image: url("../img/clement-helardot-95YRwf6CNw8-unsplash.jpg");
+
+    /* Set a specific height */
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grafico {
+    height: 160px;
+    width: 750px;
+}
+
+.card{
+    width: 20rem;
+}
+
+@media screen and (max-width: 900px) {
+
+    .grafico {
+        height: 200px;
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .paralax {
+        background-position: left;
+    }
+
+    .grafico {
+        height: 100px;
+        width: 620px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .paralax {
+        background-position: left;
+    }
+
+    .grafico {
+        height: 100px;
+        width: 420px;
+    }
+
+    .card{
+        width: 18rem;
+    }
+}
