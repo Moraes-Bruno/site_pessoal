@@ -21,3 +21,16 @@ footer{
 }
 
 
+
+@media screen and (max-width: 800px) {
+    ul,h3{
+        text-align: center;
+        list-style: none;
+        margin-right: 50px;
+    }
+
+    header{
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,9 @@
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+#carouselExampleIndicators{
+    border: 2px solid #0D1117;
+}
+
